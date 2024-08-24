@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>محصولات</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flipTimer.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.flipTimer.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+    <script src="js/scroll/jquery.mCustomScrollbar.js"></script>
+    <script src="js/scroll/jquery.mousewheel.js"></script>
+    <link rel="stylesheet" href="js/scroll/jquery.mCustomScrollbar.css">
+
+</head>
+<body bgcolor="#ccc" style="margin:0;">
+
+<header style="background-color: #fff;padding-top: 10px">
+    <div id="header">
+
+        <div id="header_right">
+            <div id="header_right_top" style="height: 40px;">
+                <span id="lockIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;">سایت سگال رایانه، وارد شوید</a>
+                <span id="loginIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;margin-right: 5px;">ثبت نام کنید</a>
+            </div>
+            <div id="header_right_bottom" style="height: 50px;">
+                <div id="basket_top">
+                    <div id="basket_top_right"></div>
+                    <div id="basket_top_left">
+                        <span class="yekan" style="color: #fff;">سبد خرید</span>
+                        <span class="yekan" id="basket_count">0</span>
+                    </div>
+                </div>
+                <div id="search_top">
+                    <input class="yekan" type="text" style="width: 480px;height: 35px;margin-right: 15px;"
+                           placeholder="محصول، دسته یا برند موردنظر خود را جستجو کنید...">
+                    <span id="searchIco"></span>
+                </div>
+            </div>
+        </div>
+        <div id="header_left" style="float: left">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+    </div>
+</header>
+
+<nav id="navigation">
+
+    <div id="menu_top">
+
+        <ul>
+            <li data-timer="1">
+                <a class="yekan fontmd">کالای دیجیتال
+                    <span class="menu_down_arrow"></span>
+                </a>
+
+                <ul>
+                    <li data-timer="3">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">برند مختلف</li>
+                                    <li class="yekan fontsm">اپل</li>
+                                    <li class="yekan fontsm">سامسونگ</li>
+                                    <li class="yekan fontsm">شیاومی</li>
+                                    <li class="yekan fontsm">نوکیا</li>
+                                    <li class="yekan fontsm">ریلمی</li>
+                                    <li class="yekan fontsm">آنر</li>
+                                </ul>
+                            </div>
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">براساس قیمت</li>
+                                    <li class="yekan fontsm">ارزان</li>
+                                    <li class="yekan fontsm">قسطی</li>
+                                    <li class="yekan fontsm">تا 2 میلیون</li>
+                                    <li class="yekan fontsm">تا 5 میلیون</li>
+                                    <li class="yekan fontsm">تا 7 میلیون</li>
+                                    <li class="yekan fontsm">تا 15 میلیون</li>
+                                </ul>
+                            </div>
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">لوازم جانبی</li>
+                                    <li class="yekan fontsm">شارژر</li>
+                                    <li class="yekan fontsm">قاب و کاور</li>
+                                    <li class="yekan fontsm">گلس گوشی</li>
+                                    <li class="yekan fontsm">هولدر</li>
+                                    <li class="yekan fontsm">پاور بانک</li>
+                                    <li class="yekan fontsm">کابل</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="5">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+
+                    <li data-timer="3">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">گوشی موبایل</li>
+                                    <li class="yekan fontsm">Apple</li>
+                                    <li class="yekan fontsm">Samsung</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+
+                    <li data-timer="7">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">گوشی موبایل</li>
+                                    <li class="yekan fontsm">Apple</li>
+                                    <li class="yekan fontsm">Samsung</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="8">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم خانگی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم برقی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم برقی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">پوشاک
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">سلامتی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<div id="main" style="width: 1200px;margin:10px auto;">
+
+    <div id="offer">
+
+        <span class="discount">
+            <span class="right">
+                <span class="number">240</span>
+                <span class="tuman">
+                    هزار تومان
+                </span>
+            </span>
+
+            <span class="left">
+                <span>
+                    تخفیف
+                </span>
+            </span>
+        </span>
+
+        <div class="flipTimer" style="position:absolute;
+        top: -20px;
+        left: -453px;
+        right: 0 !important;
+        text-align: left !important;">
+            <div class="hours"></div>
+            <div class="minutes"></div>
+            <div class="seconds"></div>
+        </div>
+
+    </div>
+
+    <div id="details">
+        <div class="right">
+            <div class="share">
+                <i class="social" style="background-position: -706px -161px"></i>
+                <i class="addToFavorite" style="background-position: -705px -134px"></i>
+            </div>
+
+            <div class="gallery">
+                <img id="zoom_product" src="images/products/large/product_large1.jpg"
+                     data-zoom-image="images/products/large/product_large1.jpg">
+
+                <ul>
+                    <li> <span></span> </li>
+                    <li data-main-image="images/products/gallery/product_thumbnail1.jpg"
+                    ><img src="images/products/gallery/product_thumbnail1.jpg" /></li>
+                    <li data-main-image="images/products/gallery/product_thumbnail2.jpg"
+                    ><img src="images/products/gallery/product_thumbnail2.jpg" /></li>
+                    <li data-main-image="images/products/gallery/product_thumbnail3.jpg"
+                    ><img src="images/products/gallery/product_thumbnail3.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="left">
+            <div class="title">
+                گوشی مدل سامسونگ
+
+                <div class="stars text_center"
+                     style="float: left;margin: 5px 25px">
+                    <div class="gray">
+                        <div class="red"></div>
+                    </div>
+                    <span class="rate">
+                        4 از از 90 رای
+                    </span>
+                </div>
+            </div>
+
+                <h4>انتخاب رنگ</h4>
+
+                <ul class="colors">
+                    <li>
+                        <span class="circle" style="background: #000"></span>
+                        مشکی
+                    </li>
+                    <li>
+                        <span class="circle" style="background: #fff"></span>
+                        سفید
+                    </li>
+                </ul>
+
+                <h4>انتخاب گارانتی</h4>
+
+                <div class="select_list marked">
+                    <span class="yekan garanti">
+                        9 ماه گارانتی
+                    </span>
+                    <ul>
+                        <li>گارانتی شماره 1</li>
+                        <li>گارانتی شماره 2</li>
+                    </ul>
+                </div>
+
+                <div id="price">
+                    <span class="yekan" style="font-size: 9pt">
+                        قیمت
+                    </span>
+                    <span class="yekan" style="font-size: 12pt;text-decoration: line-through">
+                        10,790,000
+                    </span>
+                    <span class="yekan" style="font-size: 9pt">
+                        تومان
+                    </span>
+
+                    <span class="discount">
+                        <span class="discount_right">تخفیف</span>
+                        <span class="discount_left">1,000,000 تومان</span>
+                    </span>
+                </div>
+
+                <div class="price_for_you">
+                    <span class="yekan" style="font-size: 15pt">
+                        قیمت برای شما
+                    </span>
+                    <span class="yekan" style="font-size: 18pt;color: #03ad03">
+                        9,790,000
+                    </span>
+                    <span class="yekan" style="font-size: 15pt">
+                        تومان
+                    </span>
+                </div>
+
+                <div class="compare">
+                    <span class="yekan compare_btn">
+                        مقایسه کن
+                    </span>
+                    <span class="yekan add_to_cart_btn">
+                        <i></i>
+                        افزودن به سبد
+                    </span>
+                </div>
+            <style>
+                #services_features{
+                    width: 700px;
+                    position: static;
+                }
+                #services_features ul li{
+                    width: 140px;
+                }
+            </style>
+            <div id="services_features">
+                <ul>
+                    <li>
+                        <a class="yekan fontmd">
+                            <i style="background-position: -652px -27px;"></i>
+                            7 روز ضمانت بازگشت
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="yekan fontmd">
+                            <i style="background-position: -707px -27px;"></i>
+                            پرداخت در محل
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="yekan fontmd">
+                            <i style="background-position: -755px -27px;"></i>
+                            ضمانت اصل بودن کالا
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="yekan fontmd">
+                            <i style="background-position: -805px -27px;"></i>
+                            تحویل اکسپرس
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="yekan fontmd">
+                            <i style="background-position: -850px -27px;"></i>
+                            تضمین بهترین قیمت
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="introduction">
+        <p style="font-size: 17pt;font-family: yekan;">
+            معرفی محصول
+        </p>
+
+        <a class="more">
+            نمایش بیشتر
+        </a>
+
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+        <p style="font-size: 11pt;font-family: yekan;">
+            با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+        </p>
+    </div>
+
+    <style>
+        .sliderScroll{
+            width: 1200px;
+        }
+        .sliderScroll_main{
+            width: 1088px;
+        }
+        .sliderScroll_main ul li{
+            width: 216px;
+        }
+    </style>
+    <div class="sliderScroll">
+        <h3>
+            در سامانه سگال
+        </h3>
+        <div class="sliderScroll_content">
+            <div class="sliderScroll_prev">
+                <span onclick="sliderScroll('right',this)" class="prev" style="cursor: pointer;"></span>
+            </div>
+            <div class="sliderScroll_main">
+                <ul>
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item1.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ اول </p>
+                            <p class="yekan price">35,000,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item2.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ دوم </p>
+                            <p class="yekan price">55,600,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item3.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ سوم </p>
+                            <p class="yekan price">42,900,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item4.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ چهارم </p>
+                            <p class="yekan price">68,300,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item5.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ پنجم </p>
+                            <p class="yekan price">42,100,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item6.png" width="200px"/>
+                            <p class="yekan fontsm"> لپتاپ ششم </p>
+                            <p class="yekan price">67,300,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item7.png" width="200px"/>
+                            <p class="yekan fontsm"> لپتاپ هفتم </p>
+                            <p class="yekan price">51,900,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item1.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ اول </p>
+                            <p class="yekan price">35,000,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item2.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ دوم </p>
+                            <p class="yekan price">55,600,000</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a>
+                            <img src="images/sliderScroll_Item3.png" width="150px"/>
+                            <p class="yekan fontsm"> لپتاپ سوم </p>
+                            <p class="yekan price">42,900,000</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sliderScroll_next">
+                <span onclick="sliderScroll('left',this)" class="next" style="cursor: pointer;"></span>
+            </div>
+        </div>
+    </div>
+
+    <ul id="tab">
+        <li class="naghd active"> نقد و بررسی تخصصی</li>
+        <li class="fani">مشخصات فنی </li>
+        <li class="nazar">نظرات کاربران</li>
+        <li class="soal">پرسش و پاسخ</li>
+    </ul>
+
+    <div id="tabChildren">
+        <section>
+            <div class="itemContainer">
+                <div class="item">
+                    <h4>
+                        <i></i>
+                        <span>
+                        طراحی و ساخت
+                        </span>
+                    </h4>
+                    <div class="description">
+                        <p>
+                            توضیحات طراحی و ساخت
+                        </p>
+                        <p>
+                            توضیحات طراحی و ساخت
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>
+                        <i></i>
+                        <span>
+                        صفحه نمایش
+                        </span>
+                    </h4>
+
+                    <div class="description">
+                        <p>
+                            توضیحات صفحه نمایش
+                        </p>
+                        <p>
+                            توضیحات صفحه نمایش
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>
+                        <i></i>
+                        <span>
+                        سخت افزار
+                        </span>
+                    </h4>
+                    <div class="description">
+                        <p>
+                            توضیحات سخت افزار
+                        </p>
+                        <p>
+                            توضیحات سخت افزار
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_fani">
+            <h4>
+                مشخصات فیزیکی
+            </h4>
+            <div class="row">
+                <div class="right">
+                    ابعاد
+                </div>
+                <div class="left">
+                    200 میلی متر در 300 میلی متر
+                </div>
+            </div>
+            <div class="row">
+                <div class="right">
+                    وزن
+                </div>
+                <div class="left">
+                    300 گرم
+                </div>
+            </div>
+            <h4>
+                پردازنده
+            </h4>
+            <div class="row">
+                <div class="right">
+                    قدرت پردازنده
+                </div>
+                <div class="left">
+                     15
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="comments_result" class="navbar">
+                <p style="font-size: 16pt;font-family: yekan">
+                    امتیاز کاربران به:
+                    <span style="font-size: 12pt;font-family: yekan">
+                        گوشی سامسونگ
+                    </span>
+                </p>
+
+                <div class="row">
+                    <span class="title"
+                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                        ارزش خرید به نسبت قیمت
+                    </span>
+                    <ul>
+                        <li><span class="full"></span></li>
+                        <li><span class="full"></span></li>
+                        <li><span style="width: 20%"></span></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <span class="title"
+                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                        نوآوری
+                    </span>
+                    <ul>
+                        <li><span class="full"></span></li>
+                        <li><span class="full"></span></li>
+                        <li><span class="full"></span></li>
+                        <li><span style="width: 45%"></span></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="comments_send">
+                <p style="font-size: 16pt">
+                    شما هم میتوانید نظر خود را ارسال نمایید
+                </p>
+
+                <p style="font-size: 12pt">
+                    برای ثبت نظرات، نقد و بررسی شما لازم است ابتدا وارد حساب کاربری خود شوید
+                </p>
+
+                    <div class="email" style="text-align: left">
+                        <span class="btn" style="width: 100px">ارسال نظر</span>
+                    </div>
+            </div>
+
+            <div id="comments">
+                <p style="font-size: 16pt">
+                    نظرات کاربران
+                </p>
+                <div class="horizontal_row"></div>
+                <div class="comment">
+                    <div class="comment_header">
+                        <div class="right">
+                            <span class="name" style="font-size: 16pt">
+                                علی حیدری
+                            </span>
+                            <span class="date" style="font-size: 11pt">
+                                10 آذر 1402
+                            </span>
+                        </div>
+                        <div class="left">
+                            <span class="dislike">
+                                <i></i>
+                                <span>12</span>
+                            </span>
+                            <span class="like">
+                                <i></i>
+                                <span>20</span>
+                            </span>
+                            <span>
+                                آیا نظر مفید بود؟
+                            </span>
+                        </div>
+                    </div>
+                    <div class="comment_content">
+                        <div class="right">
+                            <div class="navbar">
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        نوآوری
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 40%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        کیفیت دوربین
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 60%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        ظاهر
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 20%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+
+                            <div class="top">
+                                فوق العاده بود
+                            </div>
+                            <div class="center">
+                                <div class="ghovat">
+                                    <p style="color: green">نقاط قوت</p>
+                                    <p>
+                                        بدنه مستحکم- نگهداری شارژ بالا
+                                    </p>
+                                </div>
+                                <div class="zaaf">
+                                    <p style="color: red">نقاط ضعف</p>
+                                    <p>
+                                        تک سیمکارت
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                متن کامل کامنت در اینجا
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment_header">
+                        <div class="right">
+                            <span class="name" style="font-size: 16pt">
+                                علی حیدری
+                            </span>
+                            <span class="date" style="font-size: 11pt">
+                                10 آذر 1402
+                            </span>
+                        </div>
+                        <div class="left">
+                            <span class="dislike">
+                                <i></i>
+                                <span>12</span>
+                            </span>
+                            <span class="like">
+                                <i></i>
+                                <span>20</span>
+                            </span>
+                            <span>
+                                آیا نظر مفید بود؟
+                            </span>
+                        </div>
+                    </div>
+                    <div class="comment_content">
+                        <div class="right">
+                            <div class="navbar">
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        نوآوری
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 40%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        کیفیت دوربین
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 60%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        ظاهر
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 20%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+
+                            <div class="top">
+                                فوق العاده بود
+                            </div>
+                            <div class="center">
+                                <div class="ghovat">
+                                    <p style="color: green">نقاط قوت</p>
+                                    <p>
+                                        بدنه مستحکم- نگهداری شارژ بالا
+                                    </p>
+                                </div>
+                                <div class="zaaf">
+                                    <p style="color: red">نقاط ضعف</p>
+                                    <p>
+                                        تک سیمکارت
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                متن کامل کامنت در اینجا
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment">
+                    <div class="comment_header">
+                        <div class="right">
+                            <span class="name" style="font-size: 16pt">
+                                علی حیدری
+                            </span>
+                            <span class="date" style="font-size: 11pt">
+                                10 آذر 1402
+                            </span>
+                        </div>
+                        <div class="left">
+                            <span class="dislike">
+                                <i></i>
+                                <span>12</span>
+                            </span>
+                            <span class="like">
+                                <i></i>
+                                <span>20</span>
+                            </span>
+                            <span>
+                                آیا نظر مفید بود؟
+                            </span>
+                        </div>
+                    </div>
+                    <div class="comment_content">
+                        <div class="right">
+                            <div class="navbar">
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        نوآوری
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 40%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        کیفیت دوربین
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 60%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <span class="title"
+                                          style="font-size: 12pt;font-family: yekan;float: right;width: 170px;display: block">
+                                        ظاهر
+                                    </span>
+                                    <ul>
+                                        <li><span class="full"></span></li>
+                                        <li><span class="full"></span></li>
+                                        <li><span style="width: 20%"></span></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+
+                            <div class="top">
+                                فوق العاده بود
+                            </div>
+                            <div class="center">
+                                <div class="ghovat">
+                                    <p style="color: green">نقاط قوت</p>
+                                    <p>
+                                        بدنه مستحکم- نگهداری شارژ بالا
+                                    </p>
+                                </div>
+                                <div class="zaaf">
+                                    <p style="color: red">نقاط ضعف</p>
+                                    <p>
+                                        تک سیمکارت
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                متن کامل کامنت در اینجا
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="questions">
+            <h4>
+                پرسش خود را مطرح نمایید
+            </h4>
+            <textarea id="question_text"></textarea>
+            <div class="email" style="text-align: left;float: right;width: 100%">
+                <span class="btn" style="width: 100px">ثبت پرسش</span>
+            </div>
+
+            <div class="horizontal_row"></div>
+
+            <div id="questions_container" class="row">
+
+                <div class="question">
+                    <div class="question_header">
+                        <i></i>
+                        <span style="float: right;font-size: 12pt;margin-right: 10px">
+                            پرسش
+                        </span>
+
+                        <span style="float: left;font-size: 12pt;margin-right: 10px;margin-left: 10px">
+                            آذر 1402
+                        </span>
+
+                        <span style="float: left;font-size: 12pt;margin-right: 10px">
+                            محمدرضا
+                        </span>
+
+                    </div>
+                    <div class="question_content">
+                        <p>
+                            سوال مربوط به محصول در اینجا قرار میگیرد
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+</div>
+
+
+<div id="product_gallery" class="product_script">
+    <h4>
+        گوشی مدل سامسونگ
+        <span class="close">
+        </span>
+    </h4>
+
+    <div class="right">
+            <img class="main_image" width="500px"/>
+    </div>
+    <div class="left">
+        <ul>
+            <li data-main-image="images/products/gallery/product_thumbnail1.jpg"
+            ><img src="images/products/gallery/product_thumbnail1.jpg"/></li>
+
+            <li data-main-image="images/products/gallery/product_thumbnail2.jpg"
+            ><img src="images/products/gallery/product_thumbnail2.jpg"/></li>
+
+            <li data-main-image="images/products/gallery/product_thumbnail3.jpg"
+            ><img src="images/products/gallery/product_thumbnail3.jpg"/></li>
+
+            <li data-main-image="images/products/gallery/product_thumbnail1.jpg"
+            ><img src="images/products/gallery/product_thumbnail1.jpg"/></li>
+
+            <li data-main-image="images/products/gallery/product_thumbnail2.jpg"
+            ><img src="images/products/gallery/product_thumbnail2.jpg"/></li>
+
+            <li data-main-image="images/products/gallery/product_thumbnail3.jpg"
+            ><img src="images/products/gallery/product_thumbnail3.jpg"/></li>
+        </ul>
+    </div>
+</div>
+
+<div id="dark"></div>
+
+
+<footer>
+    <div id="footer_top">
+        <div class="main">
+            <span class="yekan fontlg">
+                24 ساعته پاسخگو هستیم.
+            </span>
+
+            <ul>
+                <li>
+                    <a>
+                        021-000001
+                        <i style="background-position: -49px -70px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        سوالات متداول
+                        <i style="background-position: -93px -67px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        segal@gmail.com
+                        <i style="background-position: -136px -67px"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer_bottom">
+        <div class="main">
+            <div class="right">
+                <ul>
+                    <li><a class="title">راهنمای خرید</a></li>
+                    <li><a>ثبت سفارش</a></li>
+                    <li><a>رویه ارسال</a></li>
+                    <li><a>شیوه های پرداخت</a></li>
+                </ul>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a class="title">خدمات مشتریان</a></li>
+                    <li><a>پاسخ به پرسش های متداول</a></li>
+                    <li><a>شرایط استفاده</a></li>
+                    <li><a>حریم خصوصی</a></li>
+                </ul>
+            </div>
+            <div class="left">
+                <p class="title yekan">اولین نفری که مطلع میشود باشید</p>
+
+                <div class="email">
+                    <input type="text">
+                    <span class="btn">تایید</span>
+                </div>
+
+                <ul>
+                    <li><img src="images/bazar.jpg"></li>
+                    <li><img src="images/myket.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+

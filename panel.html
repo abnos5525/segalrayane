@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>پنل کاربری</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flipTimer.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.flipTimer.js"></script>
+    <script src="js/jquery.elevatezoom.js"></script>
+    <script src="js/scroll/jquery.mCustomScrollbar.js"></script>
+    <script src="js/scroll/jquery.mousewheel.js"></script>
+    <link rel="stylesheet" href="js/scroll/jquery.mCustomScrollbar.css">
+
+</head>
+<body bgcolor="#ccc" style="margin:0;">
+
+<header style="background-color: #fff;padding-top: 10px">
+    <div id="header">
+
+        <div id="header_right">
+            <div id="header_right_top" style="height: 40px;">
+                <span id="lockIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;">سایت سگال رایانه، وارد شوید</a>
+                <span id="loginIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;margin-right: 5px;">ثبت نام کنید</a>
+            </div>
+            <div id="header_right_bottom" style="height: 50px;">
+                <div id="basket_top">
+                    <div id="basket_top_right"></div>
+                    <div id="basket_top_left">
+                        <span class="yekan" style="color: #fff;">سبد خرید</span>
+                        <span class="yekan" id="basket_count">0</span>
+                    </div>
+                </div>
+                <div id="search_top">
+                    <input class="yekan" type="text" style="width: 480px;height: 35px;margin-right: 15px;"
+                           placeholder="محصول، دسته یا برند موردنظر خود را جستجو کنید...">
+                    <span id="searchIco"></span>
+                </div>
+            </div>
+        </div>
+        <div id="header_left" style="float: left">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+    </div>
+</header>
+
+<nav id="navigation">
+
+    <div id="menu_top">
+
+        <ul>
+            <li data-timer="1">
+                <a class="yekan fontmd">کالای دیجیتال
+                    <span class="menu_down_arrow"></span>
+                </a>
+
+                <ul>
+                    <li data-timer="3">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">گوشی موبایل</li>
+                                    <li class="yekan fontsm">Apple</li>
+                                    <li class="yekan fontsm">Samsung</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="5">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم خانگی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</nav>
+
+<div id="main_panel" style="width: 1200px;margin:10px auto;">
+
+    <div class="box">
+        <div class="header">
+            اطلاعات کاربر
+        </div>
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <span class="title">
+                            نام و نام خانوادگی:
+                        </span>
+                        <span class="value">
+                            علی حیدری
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            آدرس ایمیل:
+                        </span>
+                        <span class="value">
+                            heidary@gmail.com
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            سن:
+                        </span>
+                        <span class="value">
+                            35
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="title">
+                            شماره همراه:
+                        </span>
+                        <span class="value">
+                            09220000001
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                           تاریخ تولد:
+                        </span>
+                        <span class="value">
+                            1360
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            جنسیت:
+                        </span>
+                        <span class="value">
+                            مرد
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="text-align: left">
+                        <a>
+                            <img src="images/saveInfo.gif" />
+                        </a>
+                        <a>
+                            <img src="images/changePassword.png" />
+                        </a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <div class="header">
+             گزارش عملکرد
+        </div>
+        <div class="content">
+            <table>
+                <tr>
+                    <td>
+                        <span class="title">
+                            تعداد کل سفارشات:
+                        </span>
+                        <span class="value">
+                            4
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            تعداد کل بن دریافتی:
+                        </span>
+                        <span class="value">
+                            0
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            تعداد نظرات ارسال شده:
+                        </span>
+                        <span class="value">
+                            11
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="title">
+                            سفارشات در انتظار تایید:
+                        </span>
+                        <span class="value">
+                            0
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                           بن مصرفی:
+                        </span>
+                        <span class="value">
+                            0
+                        </span>
+                    </td>
+                    <td>
+                        <span class="title">
+                            پیام های خوانده نشده:
+                        </span>
+                        <span class="value">
+                            1
+                        </span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <ul id="tab">
+        <li class="active">پیغام های من</li>
+        <li>سفارشات من</li>
+        <li>لیست موردعلاقه</li>
+        <li>نظرات من</li>
+        <li>بن های من</li>
+    </ul>
+
+    <div id="tabChildren">
+        <section>
+            <table>
+            <tr>
+                <td>ردیف</td>
+                <td>کد</td>
+                <td>تاریخ</td>
+                <td>عنوان</td>
+                <td>متن</td>
+                <td>وضعیت</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>123</td>
+                <td>1402</td>
+                <td>تایید سفارش</td>
+                <td>سفارش شما با کد رهگیری 6522 ثبت شد</td>
+                <td>خوانده نشده</td>
+            </tr>
+            </table>
+        </section>
+        <section class="myOrders">
+            <table cellspacing="0">
+                <tr>
+                    <td>ردیف</td>
+                    <td>کد</td>
+                    <td>تاریخ</td>
+                    <td>مبلغ کل</td>
+                    <td>وضعیت</td>
+                    <td>عملیات پرداخت</td>
+                    <td>نوع</td>
+                    <td>جزییات</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>455</td>
+                    <td>1399</td>
+                    <td>4,000,000</td>
+                    <td>تحویل داده شده</td>
+                    <td>پرداخت</td>
+                    <td>سفارش</td>
+                    <td>
+                        <img onclick="showDetails(this)" style="margin-top: 5px;cursor: pointer" src="images/orderdetailsopen.png" />
+                    </td>
+                </tr>
+
+                <tr class="details">
+                    <td colspan="8">
+                        <div class="subtable">
+                            <table cellspacing="0">
+                                <tr>
+                                    <td>کالا</td>
+                                    <td>تعداد</td>
+                                    <td>قیمت واحد</td>
+                                    <td>قیمت کل</td>
+                                    <td>تخفیف کل</td>
+                                    <td>مبلغ کل</td>
+                                </tr>
+                                <tr>
+                                    <td>ماوس</td>
+                                    <td>1</td>
+                                    <td>3,500,000</td>
+                                    <td>3,500,000</td>
+                                    <td>0</td>
+                                    <td>3,500,000</td>
+                                </tr>
+                            </table>
+
+                            <h4 style="font-family: yekan;font-size: 13pt;margin: 5px 0;background: #eee;font-weight: normal;padding-right: 10px;">
+                                رهگیری سفارش
+                            </h4>
+
+                            <div class="order_steps">
+                                <div class="dashed">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <ul>
+                                    <li class="active">
+                                        <span class="circle"></span>
+                                        <span class="line"></span>
+                                        <span class="title">
+                                            تایید سفارش
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span class="circle"></span>
+                                        <span class="line"></span>
+                                        <span class="title">
+                                            پرداخت
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span class="circle"></span>
+                                        <span class="line"></span>
+                                        <span class="title">
+                                            آماده ارسال
+                                        </span>
+                                    </li>
+
+                                    <li style="width: 35px;">
+                                        <span class="circle"></span>
+                                        <span class="title">
+                                            تحویل داده شده
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="dashed">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                            <div class="more">
+                                <table cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            روش ارسال: توضیحات روش ارسال
+                                        </td>
+                                        <td>
+                                            زمان ارسال: زمان
+                                        </td>
+                                        <td>
+                                            کد مرسوله: نامشخص
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            آدرس: آدرس محل
+                                        </td>
+                                        <td>
+                                            تحویل گیرنده: نام تحویل گیرنده
+                                        </td>
+                                        <td>
+                                            شماره تماس: 09320000000
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="favorite">
+            <ul>
+                <li class="active">
+                    <a>
+                        <img class="folder" src="images/folder_documents_all.png" />
+                        <span>همه پوشه ها</span>
+                        <img class="edit" src="images/icon_edit_16.png" />
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <img class="folder" src="images/folder_documents_all.png" />
+                        <span>موبایل</span>
+                        <img class="edit" src="images/icon_edit_16.png" />
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <img class="folder" src="images/folder_documents_all.png" />
+                        <span>کامپیوتر</span>
+                        <img class="edit" src="images/icon_edit_16.png" />
+                    </a>
+                </li>
+            </ul>
+
+            <div class="item">
+                <div class="right">
+                    <img src="images/products/small/product_small1.jpg" />
+                </div>
+                <div class="left">
+                    <h4>
+                        گوشی سامسونگ
+                        <img class="edit" src="images/Edit.gif" />
+                        <img class="delete" src="images/remove.png" />
+                    </h4>
+                    <p class="description">
+                        توضیحات مربوط به محصول
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <table>
+                <tr>
+                    <td>ردیف</td>
+                    <td>تاریخ</td>
+                    <td>کالا</td>
+                    <td>میپسندم</td>
+                    <td>مشاهده</td>
+                    <td>ویرایش</td>
+                    <td>حذف</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1402</td>
+                    <td>گوشی سامسونگ</td>
+                    <td>10</td>
+                    <td><img src="images/View.gif"></td>
+                    <td><img src="images/Edit.gif"></td>
+                    <td><img src="images/Delete.gif"></td>
+
+                </tr>
+
+            </table>
+        </section>
+        <section id="bon">
+            <div id="addBon">
+                <span>
+                    کد دریافت بن
+                </span>
+                <input type="text" />
+
+                <img src="images/saveInfo.gif" />
+            </div>
+
+            <table cellspacing="0">
+                <tr>
+                    <td>ردیف</td>
+                    <td>کد</td>
+                    <td>سفارش</td>
+                    <td>شرح</td>
+                    <td>تاریخ ثبت</td>
+                    <td>تاریخ انقضا</td>
+                    <td>اعتبار اولیه</td>
+                    <td>اعتبار مصرفی</td>
+                    <td> مانده</td>
+                    <td> وضعیت</td>
+                    <td> جزییات</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>156</td>
+                    <td>6987451</td>
+                    <td>بن تخفیف سفارش شما</td>
+                    <td>15 تیر 1402</td>
+                    <td>15 مرداد 1402 </td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>باطل</td>
+                    <td>
+                        <img onclick="showDetails(this)" style="margin-top: 5px;cursor: pointer" src="images/orderdetailsopen.png" />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="11">
+                        <div class="subtable">
+                            <table>
+                                <tr>
+                                    <td>سفارش</td>
+                                    <td>نوع</td>
+                                    <td>تاریخ</td>
+                                    <td>اعتبار مصرفی</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3542</td>
+                                    <td>خرید</td>
+                                    <td>1402</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+    </div>
+
+</div>
+
+
+<footer>
+    <div id="footer_top">
+        <div class="main">
+            <span class="yekan fontlg">
+                24 ساعته پاسخگو هستیم.
+            </span>
+
+            <ul>
+                <li>
+                    <a>
+                        021-000001
+                        <i style="background-position: -49px -70px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        سوالات متداول
+                        <i style="background-position: -93px -67px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        segal@gmail.com
+                        <i style="background-position: -136px -67px"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer_bottom">
+        <div class="main">
+            <div class="right">
+                <ul>
+                    <li><a class="title">راهنمای خرید</a></li>
+                    <li><a>ثبت سفارش</a></li>
+                    <li><a>رویه ارسال</a></li>
+                    <li><a>شیوه های پرداخت</a></li>
+                </ul>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a class="title">خدمات مشتریان</a></li>
+                    <li><a>پاسخ به پرسش های متداول</a></li>
+                    <li><a>شرایط استفاده</a></li>
+                    <li><a>حریم خصوصی</a></li>
+                </ul>
+            </div>
+            <div class="left">
+                <p class="title yekan">اولین نفری که مطلع میشود باشید</p>
+
+                <div class="email">
+                    <input type="text">
+                    <span class="btn">تایید</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>جستجو</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flipTimer.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.flipTimer.js"></script>
+
+</head>
+<body bgcolor="#ccc" style="margin:0;">
+
+<header style="background-color: #fff;padding-top: 10px">
+    <div id="header">
+
+        <div id="header_right">
+            <div id="header_right_top" style="height: 40px;">
+                <span id="lockIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;">سایت سگال رایانه، وارد شوید</a>
+                <span id="loginIc"></span>
+                <a class="yekan fontsm" href="#" style="float: right;margin-right: 5px;">ثبت نام کنید</a>
+            </div>
+            <div id="header_right_bottom" style="height: 50px;">
+                <div id="basket_top">
+                    <div id="basket_top_right"></div>
+                    <div id="basket_top_left">
+                        <span class="yekan" style="color: #fff;">سبد خرید</span>
+                        <span class="yekan" id="basket_count">0</span>
+                    </div>
+                </div>
+                <div id="search_top">
+                    <input class="yekan" type="text" style="width: 480px;height: 35px;margin-right: 15px;"
+                           placeholder="محصول، دسته یا برند موردنظر خود را جستجو کنید...">
+                    <span id="searchIco"></span>
+                </div>
+            </div>
+        </div>
+        <div id="header_left" style="float: left">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+    </div>
+</header>
+
+<nav id="navigation">
+
+    <div id="menu_top">
+
+        <ul>
+            <li data-timer="1">
+                <a class="yekan fontmd">کالای دیجیتال
+                    <span class="menu_down_arrow"></span>
+                </a>
+
+                <ul>
+                    <li data-timer="3">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">برند مختلف</li>
+                                    <li class="yekan fontsm">اپل</li>
+                                    <li class="yekan fontsm">سامسونگ</li>
+                                    <li class="yekan fontsm">شیاومی</li>
+                                    <li class="yekan fontsm">نوکیا</li>
+                                    <li class="yekan fontsm">ریلمی</li>
+                                    <li class="yekan fontsm">آنر</li>
+                                </ul>
+                            </div>
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">براساس قیمت</li>
+                                    <li class="yekan fontsm">ارزان</li>
+                                    <li class="yekan fontsm">قسطی</li>
+                                    <li class="yekan fontsm">تا 2 میلیون</li>
+                                    <li class="yekan fontsm">تا 5 میلیون</li>
+                                    <li class="yekan fontsm">تا 7 میلیون</li>
+                                    <li class="yekan fontsm">تا 15 میلیون</li>
+                                </ul>
+                            </div>
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">لوازم جانبی</li>
+                                    <li class="yekan fontsm">شارژر</li>
+                                    <li class="yekan fontsm">قاب و کاور</li>
+                                    <li class="yekan fontsm">گلس گوشی</li>
+                                    <li class="yekan fontsm">هولدر</li>
+                                    <li class="yekan fontsm">پاور بانک</li>
+                                    <li class="yekan fontsm">کابل</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="5">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+
+                    <li data-timer="3">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">گوشی موبایل</li>
+                                    <li class="yekan fontsm">Apple</li>
+                                    <li class="yekan fontsm">Samsung</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+
+                    <li data-timer="7">
+                        <a class="yekan fontsm">
+                            موبایل
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">گوشی موبایل</li>
+                                    <li class="yekan fontsm">Apple</li>
+                                    <li class="yekan fontsm">Samsung</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <img src="images/samsung.jpg" class="munu2_img"/>
+                        </div>
+
+                    </li>
+
+                    <li data-timer="8">
+                        <a class="yekan fontsm">
+                            تبلت و کتابخوان
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تبلت</li>
+                                    <li class="yekan fontsm">Lenovo</li>
+                                    <li class="yekan fontsm">Galaxi</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم خانگی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم برقی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">لوازم برقی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">پوشاک
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li data-timer="2"><a class="yekan fontmd">سلامتی
+                <span class="menu_down_arrow"></span>
+            </a>
+                <ul>
+                    <li data-timer="4">
+                        <a class="yekan fontsm">
+                            صوتی و تصویری
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">تلویزیون</li>
+                                    <li class="yekan fontsm">LG</li>
+                                    <li class="yekan fontsm">Oled</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+
+                    </li>
+                    <li data-timer="6">
+                        <a class="yekan fontsm">
+                            لوازم خانگی برقی
+                        </a>
+
+                        <div class="menu2">
+                            <div class="menu3">
+                                <ul>
+                                    <li class="yekan fontmd">صندلی</li>
+                                    <li class="yekan fontsm">پذیرایی</li>
+                                    <li class="yekan fontsm">آشپزخانه</li>
+                                </ul>
+                            </div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                            <div class="menu3"></div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<div id="main" style="width: 1150px;margin:10px auto;background-color: #fff;box-shadow: 0 1px 3px #eee;
+padding: 25px">
+    <div id="sidebar">
+        <h3 class="yekan">گوشی موبایل
+            <span class="arrow"></span>
+        </h3>
+        <ul>
+            <li>
+                کالای دیجیتال
+                <ul>
+                    <li>
+                        <span class="arrow"></span>
+                        موبایل
+                        <ul>
+                            <li>
+                                <span class="arrow"></span>
+                                گوشی موبایل
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="horizontal_row"></div>
+
+        <ul class="filter_ul">
+            <li class="title">بر اساس نوع</li>
+            <li>
+                <label class="check_label_search"></label>
+                <input class="check_input" type="checkbox">
+                اندروید
+            </li>
+            <li>
+                <label class="check_label_search"></label>
+                <input class="check_input" type="checkbox">
+                IOS
+            </li>
+        </ul>
+
+        <div class="horizontal_row"></div>
+
+        <ul class="filter_ul">
+            <li class="title">بر اساس رنگ</li>
+            <li>
+                <label class="check_label_search"></label>
+                <input class="check_input" type="checkbox">
+                <label class="product_color" style="background-color: black"></label>
+                مشکی
+            </li>
+            <li>
+                <label class="check_label_search"></label>
+                <input class="check_input" type="checkbox">
+                <label class="product_color" style="background-color: red"></label>
+                قرمز
+            </li>
+        </ul>
+
+    </div>
+    <div id="content_search">
+        <ul class="page_navigator">
+            <li class="yekan">
+                 جستجوی کالا
+                <span></span>
+            </li>
+            <li class="yekan">
+                کالای دیجیتال
+                <span></span>
+            </li>
+            <li class="yekan">
+                موبایل
+                <span></span>
+
+            </li>
+            <li class="yekan">
+                 تبلت
+                <span></span>
+
+            </li>
+            <li class="yekan">
+                 600 نتیجه
+                <span></span>
+
+            </li>
+        </ul>
+
+        <div id="filters_selected" >
+
+        </div>
+
+        <ul class="filter_top">
+            <li class="yekan">
+                    <span class="title">
+                         تعداد سیمکارت
+                    </span>
+                <span class="filter_top_icon"></span>
+                <div class="options">
+                    <ul>
+                        <li data-id="0" class="yekan">
+                            <span class="square"></span>
+                            نمایش همه
+                        </li>
+
+                        <div class="horizontal_row"></div>
+
+                        <li data-id="1" class="yekan">
+                            <span class="square"></span>
+                            یک
+                        </li>
+                        <li data-id="2" class="yekan">
+                            <span class="square"></span>
+
+                            دو
+                        </li>
+                        <li data-id="3" class="yekan">
+                            <span class="square"></span>
+
+                            سه
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="yekan">
+                <span class="title">
+                رزولوشن عکس
+                </span>
+                <span class="filter_top_icon"></span>
+                <div class="options">
+                    <ul>
+                        <li data-id="4" class="yekan">
+                            <span class="square"></span>
+                            نمایش همه
+                        </li>
+
+                        <div class="horizontal_row"></div>
+
+                        <li data-id="5" class="yekan">
+                            <span class="square"></span>
+                            1 مگاپیکسل
+                        </li>
+                        <li data-id="6" class="yekan">
+                            <span class="square"></span>
+                            2 مگاپیکسل
+                        </li>
+                        <li data-id="7" class="yekan">
+                            <span class="square"></span>
+                            3 مگاپیکسل
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+            <li class="yekan">
+                <span class="title">
+                حافظه داخلی
+                </span>
+                <span class="filter_top_icon"></span>
+                <div class="options">
+                    <ul>
+                        <li data-id="8" class="yekan">
+                            <span class="square"></span>
+                            نمایش همه
+                        </li>
+
+                        <div class="horizontal_row"></div>
+
+                        <li data-id="9" class="yekan">
+                            <span class="square"></span>
+                            یک
+                        </li>
+                        <li data-id="10" class="yekan">
+                            <span class="square"></span>
+                            دو
+                        </li>
+                        <li data-id="11" class="yekan">
+                            <span class="square"></span>
+                            سه
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+            <li class="yekan">
+                <span class="title">
+                    قیمت
+                </span>
+                <span class="filter_top_icon"></span>
+                <div class="options">
+                    <ul>
+                        <li data-id="12" class="yekan">
+                            <span class="square"></span>
+                            نمایش همه
+                        </li>
+
+                        <div class="horizontal_row"></div>
+
+                        <li data-id="13" class="yekan">
+                            <span class="square"></span>
+                            یک
+                        </li>
+                        <li data-id="14" class="yekan">
+                            <span class="square"></span>
+                            دو
+                        </li>
+                        <li data-id="15" class="yekan">
+                            <span class="square"></span>
+                            سه
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <div class="horizontal_row"></div>
+
+        <div id="search">
+            <input type="text">
+            <span class="search_icon"></span>
+
+            <span class="exist">
+                <span class="exist_background"></span>
+                <span class="exist_yesno"></span>
+            </span>
+
+            <span class="yekan exist_toggle_text">
+                فقط نمایش کالاهای موجود
+            </span>
+
+            <span class="display_type">
+                <span class="yekan display_type_text">
+                    نوع نمایش
+                </span>
+
+                <span class="type2 active"></span>
+                <span class="type1"></span>
+            </span>
+
+        </div>
+
+        <div id="sort">
+        <span class="yekan fontmd">
+            مرتب سازی بر اساس
+        </span>
+            <select>
+                <option>قیمت</option>
+                <option>پربازدیدترین</option>
+                <option>جدیدترین</option>
+                <option>پیشنهاد ویژه</option>
+                <option>پرفروش ترین</option>
+            </select>
+
+            <select>
+                <option>صعودی</option>
+                <option>نزولی</option>
+            </select>
+
+            <span class="yekan fontmd">
+            تعداد نمایش
+        </span>
+            <select>
+                <option>24</option>
+                <option>34</option>
+                <option>44</option>
+            </select>
+        </div>
+
+        <div id="pagination">
+
+            <span class="next">صفحه بعد</span>
+
+            <ul>
+                <li>1</li>
+                <li>2</li>
+            </ul>
+
+            <span class="prev">صفحه قبل</span>
+
+        </div>
+
+        <div id="products" class="">
+            <ul>
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product1.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                SamSung
+                            </div>
+
+                            <div class="description">
+                                گوشی‌های هوشمند سامسونگ به عنوان یکی از پیشتازان صنعت تلفن همراه، با ارائه فناوری‌های نوین و طراحی‌های متفاوت، همواره توجه بسیاری از کاربران را به خود جلب کرده‌اند. از سری گوشی‌های Galaxy با کیفیت تصویر بالا و دوربین‌های قدرتمند گرفته تا مدل‌هایی از سری Note با صفحه‌نمایش بزرگ و قلم S Pen هوشمند، سامسونگ گوشی‌هایی را به بازار عرضه کرده که توانسته‌اند نیازهای گوناگون کاربران را برآورده سازند. همچنین، از جمله ویژگی‌های برجسته این گوشی‌ها می‌توان به سرعت و عملکرد قوی، طراحی زیبا و مقاوم، امکانات دوربین پیشرفته، و پشتیبانی از فناوری‌های جدید اشاره کرد که هر ساله با ارائه مدل‌های جدید، کاربران را شگفت‌زده و سرگرم می‌کند
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    21,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    20,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product6.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                Apple
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های اپل، با نام تجاری آیفون، به عنوان یکی از برترین و پرطرفدارترین گوشی‌های هوشمند در جهان شناخته می‌شوند. اپل با تمرکز بر ترکیبی از طراحی زیبا، عملکرد قدرتمند و امنیت بالا، موبایل‌هایی را به بازار عرضه می‌کند که توانایی برآورده کردن نیازهای روزمره کاربران را دارند. آیفون‌ها با سیستم عامل iOS، از اکوسیستم یکپارچه اپل بهره می‌برند و ارتباط بین دستگاه‌های مختلف اپل را تسهیل می‌کنند. از ویژگی‌های برجسته این گوشی‌ها می‌توان به صفحه‌نمایش با کیفیت بالا، دوربین‌های عالی، پردازنده‌های قدرتمند، و امکانات نرم‌افزاری نوآورانه اشاره کرد که آنها را یکی از انتخاب‌های برتر در بازار گوشی‌های هوشمند می‌سازد
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    68,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    66,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product3.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                Xiaomi
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های شیاومی، با نام تجاری Mi و Redmi، به عنوان یکی از پیشتازان در بازار گوشی‌های هوشمند شناخته می‌شوند. این شرکت با ارائه گوشی‌های با کیفیت و با قیمتی مناسب، توانسته است توجه بسیاری از کاربران را به خود جلب کند. گوشی‌های شیاومی با داشتن ویژگی‌هایی همچون صفحه‌نمایش‌های با کیفیت، دوربین‌های با عملکرد مناسب، باتری‌های با ظرفیت بالا و امکانات نرم‌افزاری منحصربه‌فرد، انتخابی محبوب برای کاربرانی هستند که می‌خواهند تجربه‌ی ارزان قیمت و بی‌نظیری را در یک گوشی هوشمند داشته باشند. همچنین، شیاومی با ارائه مدل‌هایی با طراحی جذاب و متنوع، توانسته است به سرعت در بازار جهانی رشد کند و جایگاهی محکم بین رقبای خود کسب کند
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    20,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    18,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product4.jpg">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                Nokia
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های نوکیا با تاریخچه‌ای پرافتخار به عنوان یکی از پیشگامان صنعت تلفن همراه شناخته می‌شوند. با بیش از دهه‌ها تجربه در طراحی و تولید گوشی‌های موبایل، نوکیا به عنوان نمادی از کیفیت، اعتماد و پایداری در بازار شناخته می‌شود. موبایل‌های نوکیا با داشتن امکانات کاربردی، عمر باتری بلند، طراحی‌های متنوع و مقاومت بالا، به عنوان یک گزینه محبوب برای کاربرانی هستند که به دنبال یک تلفن همراه با عملکرد مطلوب و قیمت مناسب هستند. علاوه بر این، نوکیا با ارائه مدل‌هایی در دسته‌های مختلف از گوشی‌های ارزان قیمت تا گوشی‌های هوشمند پیشرفته، توانسته است پایبندی به اصول خود و نگرش به ارتقاء تجربه کاربری را حفظ کند و همچنان به عنوان یکی از انتخاب‌های مطرح در بازار موبایل حضور داشته باشد.
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    12,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    11,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product5.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                GPlus
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های GPlus با عرضه مدل‌های متنوع و قیمت‌های رقابتی، جای خود را در بازار گوشی‌های هوشمند پیدا کرده‌اند. این تولیدکننده، با تمرکز بر ارائه گوشی‌هایی با امکانات کاربردی و عملکرد قابل اعتماد، توانسته است توجه مشتریان را به خود جلب کند. موبایل‌های GPlus با داشتن ویژگی‌هایی همچون صفحه‌نمایش‌های با کیفیت، دوربین‌های عالی، باتری‌های با ظرفیت مناسب و طراحی‌های جذاب، گزینه‌ای مناسب برای افرادی هستند که به دنبال یک گوشی هوشمند با کیفیت و قیمت مناسب هستند. همچنین، با ارائه محصولاتی با تنوع و انعطاف پذیری در محدوده قیمتی مختلف، GPlus توانسته است جایگاه خود را در بازار تلفن همراه تقویت کرده و تبدیل به یکی از گزینه‌های محبوب برای مصرف‌کنندگان جستجوکننده به انتخاب مدل مناسب گوشی هوشمند شود
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    13,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    12,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product6.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                Sony
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های سونی با برند Xperia به عنوان یکی از انتخاب‌های مطرح در بازار گوشی‌های هوشمند شناخته می‌شوند. سونی با تمرکز بر ترکیبی از طراحی زیبا، عملکرد قدرتمند و فناوری‌های نوآورانه، توانسته است تجربه کاربری منحصربه‌فردی را ارائه دهد. موبایل‌های Xperia با داشتن صفحه‌نمایش‌های با کیفیت بالا، دوربین‌های پیشرفته، امکانات صوتی و تصویری برتر، و عمر باتری قابل توجه، جذابیت خاصی را برای کاربران فراهم می‌کنند. علاوه بر این، سونی با ارائه خدمات پشتیبانی و به‌روزرسانی منظم، به کاربران اطمینان از عملکرد بهینه و پایداری دستگاه‌های خود را می‌دهد. به همین دلیل، موبایل‌های سونی به عنوان یک گزینه محبوب و مطرح در بازار گوشی‌های هوشمند، همواره توانسته‌اند توجه بسیاری از کاربران را به خود جلب کنند
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    66,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    64,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product7.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                Motorola
+                            </div>
+
+                            <div class="description">
+                                موبایل‌های موتورولا با بیش از یک قرن تجربه در صنعت مخابرات، به عنوان یکی از برندهای برجسته و قابل اعتماد در بازار گوشی‌های هوشمند شناخته می‌شوند. این برند با تمرکز بر ارائه دستگاه‌هایی با کیفیت، دوام و عملکرد مطلوب، توانسته است اعتماد مصرف‌کنندگان را به خود جلب کند. گوشی‌های موتورولا با طراحی‌های ساده و کاربرپسند، امکانات متنوع و عملکرد قابل اعتماد، برای افرادی که به دنبال یک تجربه کاربری مطلوب و قیمت مناسب هستند، گزینه مناسبی محسوب می‌شوند. همچنین، با ارائه گوشی‌هایی در دسته‌های مختلف از ارزان‌ترین تا پیشرفته‌ترین، موتورولا توانسته است نیازهای گوناگون مصرف‌کنندگان را برآورده سازد و جایگاه خود را در بازار جهانی بهبود بخشد
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    32,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    30,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        <div class="right">
+                            <div class="text_center" style="margin-top: 5px;">
+                                <img class="product_img" src="images/mobile_product5.webp">
+                            </div>
+                            <div class="colors text_center">
+                                <span class="color" style="background-color: silver"></span>
+                                <span class="color" style="background-color: gold"></span>
+                                <span class="color" style="background-color: #2c2c2c"></span>
+                            </div>
+                            <div class="stars text_center">
+                                <div class="gray">
+                                    <div class="red"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="title yekan">
+                                GLX
+                            </div>
+
+                            <div class="description">
+                                با وجود اینکه برند GLX در بازار گوشی‌های هوشمند، معروفیت بالایی ندارد، اما با ارائه محصولاتی در رده قیمتی متنوع، توانسته است جای خود را در برخی بازارهای محلی و مناطق خاصی به دست آورد. گوشی‌های GLX معمولاً با امکانات ابتدایی تا متوسط و طراحی‌های ساده عرضه می‌شوند که برای کاربرانی که به دنبال یک گوشی مقرون به‌صرفه هستند، ممکن است جذاب باشد. این برند به دنبال ارائه گوشی‌هایی با کیفیت مناسب و قیمتی مقرون به‌صرفه است که به گونه‌ای ارزان و قابل دسترس باشند. با این حال، در مقایسه با برندهای مطرح تر، GLX ممکن است به‌طور کلی در زمینه امکانات و عملکرد، انتظارات بالاتری را برآورده نکند
+                            </div>
+
+                            <div class="price yekan">
+                                <p class="yekan price_red">
+                                    35,000,000
+                                    تومان
+                                </p>
+                                <p class="yekan price_green">
+                                    34,000,000
+                                    تومان
+                                </p>
+                                <span class="add_to_cart"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<footer>
+    <div id="footer_top">
+        <div class="main">
+            <span class="yekan fontlg">
+                24 ساعته پاسخگو هستیم.
+            </span>
+
+            <ul>
+                <li>
+                    <a>
+                        021-000001
+                        <i style="background-position: -49px -70px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        سوالات متداول
+                        <i style="background-position: -93px -67px"></i>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        segal@gmail.com
+                        <i style="background-position: -136px -67px"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer_bottom">
+        <div class="main">
+            <div class="right">
+                <ul>
+                    <li><a class="title">راهنمای خرید</a></li>
+                    <li><a>ثبت سفارش</a></li>
+                    <li><a>رویه ارسال</a></li>
+                    <li><a>شیوه های پرداخت</a></li>
+                </ul>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a class="title">خدمات مشتریان</a></li>
+                    <li><a>پاسخ به پرسش های متداول</a></li>
+                    <li><a>شرایط استفاده</a></li>
+                    <li><a>حریم خصوصی</a></li>
+                </ul>
+            </div>
+            <div class="left">
+                <p class="title yekan">اولین نفری که مطلع میشود باشید</p>
+
+                <div class="email">
+                    <input type="text">
+                    <span class="btn">تایید</span>
+                </div>
+
+                <ul>
+                    <li><img src="images/bazar.jpg"></li>
+                    <li><img src="images/myket.jpg"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
